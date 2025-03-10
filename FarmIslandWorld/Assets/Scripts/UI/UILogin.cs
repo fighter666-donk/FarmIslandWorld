@@ -9,6 +9,7 @@ public class UILogin : MonoBehaviour
     public Button buttonPlay;
     public Button buttonExit;
     public Button buttonSet;
+    public Button buttonLoad;
     // Use this for initialization
     void Start()
     {

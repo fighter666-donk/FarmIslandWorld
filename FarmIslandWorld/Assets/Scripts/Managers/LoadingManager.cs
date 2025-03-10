@@ -14,6 +14,7 @@ public class LoadingManager : MonoBehaviour
     public GameObject UIFirstGraphic;
     public Slider progressBar;
     public Text progressNumber;
+    public GameObject UICreateCharacter;
     // Use this for initialization
     //void Start()
     //{
@@ -37,6 +38,7 @@ public class LoadingManager : MonoBehaviour
         UIFirstGraphic.SetActive(true);
         UISetting.SetActive(false);
         UILogin.SetActive(false);
+        UICreateCharacter.SetActive(false);
         UILoading.SetActive(false);
         yield return new WaitForSeconds(2.4f);
         UILoading.SetActive(true);
